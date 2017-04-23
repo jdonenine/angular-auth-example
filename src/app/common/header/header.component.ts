@@ -10,7 +10,7 @@ export class HeaderComponent {
 
   constructor(private auth: AuthBaseService) { }
 
-  private logout() {
+  logout() {
     this.auth.logout();
   }
 
